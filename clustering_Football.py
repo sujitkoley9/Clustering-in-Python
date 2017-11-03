@@ -66,7 +66,7 @@
             MaximumValues.loc[c]=0
     
     data_quality_report=data_types.join(missing_data_counts).join(present_data_counts).join(UniqueValues).join(MinimumValues).join(MaximumValues)
-    data_quality_report.to_csv('Data_report.csv', index=True) --------
+    data_quality_report.to_csv('Data_report.csv', index=True) 
 #----------------------------Step 4: Missing value treatment--------------------------------
    # There is no missing, no actions required
 
